@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "test"
+version = "0.1.0"
+description = ""
+authors = ["repl.it user <replituser@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+wtforms = "^2.3.3"
+flask-bootstrap = "^3.3.7"
+werkzeug = "^1.0.1"
+email-validator = "^1.1.2"
+flask-sqlalchemy = "^2.4.4"
+flask-wtf = "^0.14.3"
+sqlalchemy = "^1.3.22"
+flask-login = "^0.5.0"
+flask = "^1.1.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
